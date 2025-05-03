@@ -2,9 +2,9 @@
 
 A smart pothole detection and reporting system that uses AI to identify road damage and streamline maintenance workflows.
 
-![App Screenshot](https://images.unsplash.com/photo-1516822264827-4c33dd76f1ae)
+![App Screenshot](https://prnt.sc/vlP2WH2KBZna)
 
-## Features ✨
+## Features
 
 - **AI-Powered Detection**: YOLO model for accurate pothole identification
 - **Real-time Reporting**: Instant submission with photo evidence
@@ -13,7 +13,7 @@ A smart pothole detection and reporting system that uses AI to identify road dam
 - **Dark Mode**: Eye-friendly interface for all lighting conditions
 - **Responsive Design**: Works on desktop and mobile devices
 
-## Tech Stack 💻
+## Tech Stack
 
 - **Backend**: Python Flask
 - **Frontend**: HTML5, Tailwind CSS, JavaScript
@@ -21,15 +21,17 @@ A smart pothole detection and reporting system that uses AI to identify road dam
 - **Database**: SQLite
 - **Email**: Flask-Mail for OTP
 
-## Installation ⚙️
+## Installation
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/yourusername/road-health-monitor.git
    cd road-health-monitor
    ```
 
 2. **Set up environment**:
+
    ```bash
    python -m venv venv
    source venv/bin/activate  # Linux/Mac
@@ -37,12 +39,14 @@ A smart pothole detection and reporting system that uses AI to identify road dam
    ```
 
 3. **Install dependencies**:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 4. **Configure environment variables**:
    Create a `.env` file:
+
    ```env
    SECRET_KEY=your_secret_key_here
    MAIL_SERVER=smtp.example.com
@@ -56,14 +60,16 @@ A smart pothole detection and reporting system that uses AI to identify road dam
    python init_db.py
    ```
 
-## Usage 🚀
+## Usage
 
 1. **Run the application**:
+
    ```bash
    python app.py
    ```
 
 2. **Access the web interface**:
+
    ```
    http://localhost:5000
    ```
@@ -72,7 +78,7 @@ A smart pothole detection and reporting system that uses AI to identify road dam
    - Admin: `admin/admin123`
    - User: `user/user123`
 
-## Project Structure 📂
+## Project Structure
 
 ```
 road-health-monitor/
@@ -88,25 +94,27 @@ road-health-monitor/
 ```
 
 ## Additional Notes
+
 - Ensure the `static/uploads/` directory exists for file uploads.
 - The `app.secret_key` should be changed for production security.
 - To stop the virtual environment, use `deactivate`.
 
 ## License
+
 This project is open-source and can be modified as needed.
 
-## API Endpoints 🌐
+## API Endpoints
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/` | GET | Home/Landing page |
-| `/login` | GET/POST | User authentication |
-| `/signup` | GET/POST | User registration |
-| `/submit_query` | POST | Submit new pothole report |
-| `/get_queries` | GET | Fetch all reports |
-| `/update_complaint_status` | POST | Update report status |
+| Endpoint                   | Method   | Description               |
+| -------------------------- | -------- | ------------------------- |
+| `/`                        | GET      | Home/Landing page         |
+| `/login`                   | GET/POST | User authentication       |
+| `/signup`                  | GET/POST | User registration         |
+| `/submit_query`            | POST     | Submit new pothole report |
+| `/get_queries`             | GET      | Fetch all reports         |
+| `/update_complaint_status` | POST     | Update report status      |
 
-## Contributing 🤝
+## Contributing
 
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -114,14 +122,14 @@ This project is open-source and can be modified as needed.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License 📜
+## License
 
 MIT License - see [LICENSE](LICENSE) for details
 
 ## Screenshots 📸
 
-![Dashboard](screenshots/dashboard.png)
-![Mobile View](screenshots/mobile-view.png)
+![User View](https://prnt.sc/nvDKIEMfotu-)
+![Admin View](https://prnt.sc/qTIitkm5P1t9)
 
 ## Future Enhancements 🔮
 
@@ -129,4 +137,3 @@ MIT License - see [LICENSE](LICENSE) for details
 - [ ] Municipal API integration
 - [ ] Severity classification system
 - [ ] Push notifications
-
