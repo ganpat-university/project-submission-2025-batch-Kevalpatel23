@@ -26,7 +26,7 @@ A smart pothole detection and reporting system that uses AI to identify road dam
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/road-health-monitor.git
+   git clone https://github.com/Kevalpatel23/Road-Health-Monitoring
    cd road-health-monitor
    ```
 
