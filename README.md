@@ -1,8 +1,6 @@
-# Road Health Monitor 🚧
+# Road Health Monitor 
 
 A smart pothole detection and reporting system that uses AI to identify road damage and streamline maintenance workflows.
-
-![App Screenshot](https://prnt.sc/vlP2WH2KBZna)
 
 ## Features
 
@@ -126,12 +124,7 @@ This project is open-source and can be modified as needed.
 
 MIT License - see [LICENSE](LICENSE) for details
 
-## Screenshots 📸
-
-![User View](https://prnt.sc/nvDKIEMfotu-)
-![Admin View](https://prnt.sc/qTIitkm5P1t9)
-
-## Future Enhancements 🔮
+## Future Enhancements 
 
 - [ ] GPS integration for automatic location tagging
 - [ ] Municipal API integration
